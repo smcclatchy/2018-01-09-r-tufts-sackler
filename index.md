@@ -193,7 +193,7 @@ eventbrite:
 <div class="col-md-6">
 <h3>Wednesday, November 15</h3>
 <table class="table table-striped">
-<tr> <td>09:00</td>  <td><a href={{swc_pages}}/r-novice-gapminder/>Workshop Overview</td> </tr>
+<tr> <td>09:00</td>  <td><a href="{{swc_pages}}/r-novice-gapminder/">Workshop Overview</a></td> </tr>
 <tr> <td>09:15</td>  <td><a href={{swc_pages}}/r-novice-gapminder/01-rstudio-intro/>Introduction to R and RStudio</td> </tr>
 <tr> <td>10:15</td>  <td><a href={{swc_pages}}/r-novice-gapminder/02-project-intro/>Project Management With RStudio</td> </tr>
 <tr> <td>10:30</td>  <td><a href={{swc_pages}}/r-novice-gapminder/03-seeking-help/>Seeking Help</td> </tr>
