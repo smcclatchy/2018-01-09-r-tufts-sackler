@@ -12,7 +12,7 @@ startdate: 2018-01-09      # machine-readable start date for the workshop in YYY
 enddate: 2018-01-10        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["FIXME"]
 helper: ["FIXME"]    
-email: ["susan.mcclatchy@jax.org"]
+contact: ["susan.mcclatchy@jax.org"]
 collaborative_notes:             # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
 eventbrite:         
 ---
@@ -189,28 +189,42 @@ eventbrite:
 -->
 <h2 id="schedule">Schedule</h2>
 
-<!-- DO NOT EDIT SURVEY LINKS -->
-<p><em>Surveys</em></p>
-{% if page.carpentry == "swc" %} 
-<p>Please be sure to complete these surveys before and after the workshop.</p>
-<p><a href="{{ site.swc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
-<p><a href="{{ site.swc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
-{% elsif page.carpentry == "dc" %}
-  <p>Please be sure to complete these surveys before and after the workshop.</p>
-<p><a href="{{ site.dc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
-<p><a href="{{ site.dc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
-{% elsif page.carpentry == "lc" %}
-<p>Ask your instructor about pre- and post-workshop Survey details.</p>
-{% endif %}
+<div class="row">
+<div class="col-md-6">
+<h3>Wednesday, November 15</h3>
+<table class="table table-striped">
+<tr> <td>09:00</td>  <td><a href={{swc_pages}}/r-novice-gapminder/>Workshop Overview</td> </tr>
+<tr> <td>09:15</td>  <td><a href={{swc_pages}}/r-novice-gapminder/01-rstudio-intro/>Introduction to R and RStudio</td> </tr>
+<tr> <td>10:15</td>  <td><a href={{swc_pages}}/r-novice-gapminder/02-project-intro/>Project Management With RStudio</td> </tr>
+<tr> <td>10:30</td>  <td><a href={{swc_pages}}/r-novice-gapminder/03-seeking-help/>Seeking Help</td> </tr>
+<tr> <td>10:45</td> <td>Coffee</td> </tr>
+<tr> <td>11:00</td>  <td><a href={{swc_pages}}/r-novice-gapminder/04-data-structures-part1/>Data Structures</td> </tr>     
+<tr> <td>12:00</td>  <td>Lunch break</td> </tr>
+<tr> <td>13:00</td>  <td><a href={{swc_pages}}/r-novice-gapminder/05-data-structures-part2/>Exploring Data Frames</td> </tr>
+<tr> <td>13:30</td>  <td><a href={{swc_pages}}/r-novice-gapminder/06-data-subsetting/>Subsetting Data</td> </tr>
+<tr> <td>14:30</td>  <td>Coffee</td> </tr>
+<tr> <td>14:45</td>  <td><a href={{swc_pages}}/r-novice-gapminder/06-data-subsetting/>Subsetting Data (continued) </td> </tr>
+<tr> <td>15:15</td>  <td><a href={{swc_pages}}/r-novice-gapminder/07-control-flow/>Control Flow</td> </tr>
+<tr> <td>16:15</td>  <td>Wrap-up</td> </tr>
+</table>
+</div>
+<div class="col-md-6">
+<h3>Thursday, November 16</h3>
+<table class="table table-striped">
+<tr> <td>09:00</td>  <td><a href={{swc_pages}}/r-novice-gapminder/08-plot-ggplot2/>Creating Publication-Quality Graphics</td> </tr>
+<tr> <td>10:45</td> <td>Coffee</td> </tr>
+<tr> <td>11:00</td>  <td><a href={{swc_pages}}/r-novice-gapminder/09-vectorization/>Vectorization</td> </tr>
+<tr> <td>11:15</td>  <td><a href={{swc_pages}}/r-novice-gapminder/10-functions/>Functions Explained</td> </tr>
+<tr> <td>12:00</td>  <td>Lunch break</td> </tr>
+<tr> <td>13:00</td>  <td><a href={{swc_pages}}/r-novice-gapminder/11-writing-data/>Writing Data</td> </tr>
+<tr> <td>14:30</td>  <td>Coffee</td> </tr>
+<tr> <td>14:45</td>  <td><a href={{swc_pages}}/r-novice-gapminder/13-dplyr/>Dataframe Manipulation with dplyr</td> </tr>
+<tr> <td>15:45</td>  <td><a href={{swc_pages}}/r-novice-gapminder/15-knitr-markdown/>Producing Reports With knitr</td> </tr>
+<tr> <td>16:15</td>  <td>Wrap-up</td> </tr>
+</table>
+</div>
+</div>
 
-
-{% if page.carpentry == "swc" %}
-  {% include sc/schedule.html %}
-{% elsif page.carpentry == "dc" %}
-  {% include dc/schedule.html %}
-{% elsif page.carpentry == "lc" %}
-  {% include lc/schedule.html %}
-{% endif %}
 
 <!--
   Collaborative Notes
