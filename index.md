@@ -12,7 +12,7 @@ startdate: 2018-01-09      # machine-readable start date for the workshop in YYY
 enddate: 2018-01-10        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["FIXME"]
 helper: ["FIXME"]    
-contact: ["susan.mcclatchy@jax.org"]
+email: ["susan.mcclatchy@jax.org"]
 collaborative_notes:             # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
 eventbrite:         
 ---
