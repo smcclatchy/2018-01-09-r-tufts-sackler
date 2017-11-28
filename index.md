@@ -242,7 +242,6 @@ eventbrite:
 </p>
 {% endif %}
 
-<hr/">
 
 <!--
   SYLLABUS
@@ -263,15 +262,20 @@ eventbrite:
 -->
 <h2 id="syllabus">Syllabus</h2>
 
-{% if page.carpentry == "swc" %}
-  {% include sc/syllabus.html %}
-{% elsif page.carpentry == "dc" %}
-  {% include dc/syllabus.html %}
-{% elsif page.carpentry == "lc" %}
-  {% include lc/syllabus.html %}
-{% endif %}
+<table class="table table-striped">
+    <div class="col-md-6">
+    <h3 id="syllabus-r">Programming in R</h3>
+    <ul>
+    <li>Working with vectors and data frames</li>
+    <li>Reading and plotting data</li>
+    <li>Creating and using functions</li>
+    <li>Loops and conditionals</li>
+    <li>Using R from the command line</li>
+    <li><a href="{{site.swc_pages}}/r-novice-inflammation/reference/">Reference...</a></li>
+    </ul>
+    </div>
+</table>
 
-<hr/">
 
 <!--
   SETUP
