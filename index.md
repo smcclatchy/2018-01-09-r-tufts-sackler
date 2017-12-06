@@ -10,8 +10,8 @@ humandate: "Jan 9-10, 2018"    # human-readable dates for the workshop (e.g., "F
 humantime: "9:00 am - 4:30 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2018-01-09      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2018-01-10        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["FIXME"]
-helper: ["FIXME"]    
+instructor: ["Sue McClatchy", "Marianna Foos", "Brian Teague"]
+helper: ["Albert Tai"]    
 email: ["susan.mcclatchy@jax.org"]
 collaborative_notes:             # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
 eventbrite:         
