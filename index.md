@@ -190,7 +190,7 @@ eventbrite:
 
 <div class="row">
     <div class="col-md-6">
-        <h3>Wednesday, November 15</h3>
+        <h3>Tuesday, January 9</h3>
             <table class="table table-striped">
                 <tr> <td>09:00</td>  <td><a href="{{swc_pages}}/r-novice-gapminder/">Workshop Overview</a></td> </tr>
                 <tr> <td>09:15</td>  <td><a href="{{swc_pages}}/r-novice-gapminder/01-rstudio-intro/">Introduction to R and RStudio</a></td> </tr>
@@ -208,7 +208,7 @@ eventbrite:
             </table>
     </div>
     <div class="col-md-6">
-        <h3>Thursday, November 16</h3>
+        <h3>Wednesday, January 10</h3>
             <table class="table table-striped">
                 <tr> <td>09:00</td>  <td><a href="{{swc_pages}}/r-novice-gapminder/08-plot-ggplot2/">Creating Publication-Quality Graphics</a></td> </tr>
                 <tr> <td>10:45</td>  <td>Coffee</td> </tr>
