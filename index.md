@@ -14,7 +14,7 @@ instructor: ["Sue McClatchy", "Marianna Foos", "Brian Teague"]
 helper: ["Albert Tai"]    
 email: ["susan.mcclatchy@jax.org"]
 collaborative_notes:             # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
-eventbrite: 41703424064         
+eventbrite:       
 ---
 
 <!-- See instructions in the comments below for how to edit specific sections of this workshop template. -->
