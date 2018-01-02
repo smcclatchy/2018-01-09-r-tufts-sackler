@@ -2,12 +2,12 @@
 layout: workshop      # DON'T CHANGE THIS.
 carpentry: ""    # what kind of Carpentry (must be either "lc" or "dc" or "swc")
 venue: "Tufts Sackler Graduate School of Biomedical Sciences"        
-address: "Sackler 316, 145 Harrison Avenue, Boston, MA"      
+address: "Sackler 316, 136 Harrison Avenue, Boston, MA"      
 country: "us"    
 language: "en"   
-latlng: "42.349813,-71.061480"       
+latlng: "42.350130,-71.061511"       
 humandate: "Jan 9-10, 2018"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: "9:00 am - 4:30 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
+humantime: "9:00 am - 5:00 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2018-01-09      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2018-01-10        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Sue McClatchy", "Marianna Foos", "Brian Teague"]
