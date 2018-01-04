@@ -13,7 +13,7 @@ enddate: 2018-01-10        # machine-readable end date for the workshop in YYYY-
 instructor: ["Sue McClatchy", "Marianna Foos", "Brian Teague"]
 helper: ["Albert Tai"]    
 email: ["susan.mcclatchy@jax.org"]
-collaborative_notes:             # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
+collaborative_notes: https://public.etherpad-mozilla.org/p/2018-01-09-r-tufts-sackler
 eventbrite:       
 ---
 
