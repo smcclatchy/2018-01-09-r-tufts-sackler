@@ -2,7 +2,7 @@
 layout: workshop      # DON'T CHANGE THIS.
 carpentry: ""    # what kind of Carpentry (must be either "lc" or "dc" or "swc")
 venue: "Tufts Sackler Graduate School of Biomedical Sciences"        
-address: "Sackler 316, 136 Harrison Avenue, Boston, MA"      
+address: "Sackler 316, 145 Harrison Avenue, Boston, MA"      
 country: "us"    
 language: "en"   
 latlng: "42.350130,-71.061511"       
